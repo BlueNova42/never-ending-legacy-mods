@@ -3,7 +3,7 @@ G.AddData({
    author: 'BlueNova42',
    desc: 'WIP',
    engineVersion: 1,
-   manifest: 0,
+   manifest: 'modManifest.js',
    requires: ['Default dataset*'],
    func: function() {
       G.getDict('unitCategories').push({
