@@ -5,6 +5,9 @@ G.AddData({
    engineVersion: 1,
    manifest: 'modManifest.js',
    requires: ['Default dataset*'],
+   sheets: {
+      'spicySheet': 'img/spicyModIconSheet.png'
+   },
    func: function() {
       G.getDict('unitCategories').push({
          id: 'specialized',
@@ -13,7 +16,7 @@ G.AddData({
       new G.Unit({
          name: 'doctor',
          desc: '@uses [herb]s to heal the [sick] and the [wounded]<>The [doctor] has carefully studied how herbs work to cure illness.',
-         icon: [0, 5],
+         icon: [0, 0],
          cost: {},
          use: {
             'worker': 1
@@ -51,7 +54,7 @@ G.AddData({
             'healing': true
          },
          category: 'specialized',
-         priority: 5,
+         priority: 50,
       });
    }
 })
