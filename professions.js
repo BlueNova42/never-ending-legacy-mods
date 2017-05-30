@@ -7,8 +7,8 @@ G.AddData({
    requires: ['Default dataset*'],
    func: function() {
       G.getDict('unitCategories').push({
-         id: 'specialized',
-         name: 'Specialized'
+         id: 'special',
+         name: 'Special'
       });
       new G.Unit({
          name: 'doctor',
@@ -50,7 +50,7 @@ G.AddData({
          req: {
             'healing': true
          },
-         category: 'specialized',
+         category: 'special',
          priority: 50,
       });
    }
