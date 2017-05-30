@@ -30,7 +30,7 @@ G.AddData({
                'adult': 1
             },
             chance: 4 / 5,
-            every: 1
+            every: 2
          }, {
             type: 'convert',
             from: {
@@ -44,7 +44,7 @@ G.AddData({
             every: 5
          }, ],
          req: {
-            'healing': true
+            'healing': false
          },
          category: 'spiritual',
          priority: 50,
