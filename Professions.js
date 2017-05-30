@@ -1,5 +1,6 @@
 G.AddData({
    name: 'professions',
+   author: 'BlueNova42',
    desc: 'WIP',
    engineVersion: 1,
    manifest: 0,
