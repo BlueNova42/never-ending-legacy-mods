@@ -6,10 +6,6 @@ G.AddData({
    manifest: 'modManifest.js',
    requires: ['Default dataset*'],
    func: function() {
-      G.getDict('unitCategories').push({
-         id: 'special',
-         name: 'Special'
-      });
       new G.Unit({
          name: 'doctor',
          desc: '@uses [herb]s to heal the [sick] and the [wounded]<>The [doctor] has carefully studied how herbs work to cure illness.',
@@ -50,7 +46,7 @@ G.AddData({
          req: {
             'healing': true
          },
-         category: 'special',
+         category: 'spiritual',
          priority: 50,
       });
    }
