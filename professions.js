@@ -44,9 +44,8 @@ G.AddData({
             every: 5
          }, ],
          req: {
-            //'healing': true,
-            //'smelting': true,
-            'fire-making': true
+            'healing': true,
+            'smelting': true
          },
          category: 'spiritual',
          priority: 50,
