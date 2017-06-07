@@ -44,7 +44,7 @@ G.AddData({
             every: 5
          }, ],
          req: {
-            'healing': true,
+            //'healing': true,
             //'smelting': true,
             'fire-making': true
          },
