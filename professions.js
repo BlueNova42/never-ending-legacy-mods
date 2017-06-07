@@ -1,4 +1,4 @@
-//Version 1 working
+//doesnt work
 G.AddData({
    name: 'professions',
    author: 'BlueNova42',
@@ -21,8 +21,7 @@ G.AddData({
          upkeep: {
             'coin': 0.4
          },
-         effects: [{
-            type: 'convert',
+         effects: [{type: 'convert',
             from: {
                'sick': 1,
                'herb': 2.5
@@ -45,7 +44,9 @@ G.AddData({
             every: 5
          }, ],
          req: {
-            'healing': false
+            'healing': true,
+            //'smelting': true,
+            'fire-making': true
          },
          category: 'spiritual',
          priority: 50,
