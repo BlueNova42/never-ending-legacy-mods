@@ -1,4 +1,4 @@
-//doesnt work
+//Version 1 working
 G.AddData({
    name: 'professions',
    author: 'BlueNova42',
