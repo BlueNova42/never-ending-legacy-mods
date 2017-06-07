@@ -4,7 +4,7 @@ G.AddData({
    author: 'BlueNova42',
    desc: 'WIP',
    engineVersion: 1,
-   manifest: 'modManifest.js',
+   manifest: 'blueManifest.js',
    requires: ['Default dataset*'],
    func: function() {
       new G.Unit({
