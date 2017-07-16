@@ -1,5 +1,5 @@
 //doesnt work
-G.AddData({
+G.dAddData({
    name: 'professions',
    author: 'BlueNova42',
    desc: 'Adds more units (WIP)',
@@ -35,7 +35,7 @@ G.AddData({
                'adult': 1
             },
             //chance: 4 / 5,
-            chance: 1
+            chance: 1,
             every: 1
          }, {
             type: 'convert',
@@ -46,7 +46,8 @@ G.AddData({
             into: {
                'adult': 1
             },
-            chance: 1 / 2,
+            //chance: 1 / 2,
+            chance: 1,
             every: 5
          }, ],
          req: {
@@ -56,6 +57,5 @@ G.AddData({
          category: 'debug',
          priority: 50,
       });
-
    }
 })
