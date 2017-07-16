@@ -7,7 +7,7 @@ G.AddData({
    manifest: 'blueManifest.js',
    requires: ['Default dataset*'],
    func: function() {
-      G.getDict('unitCategories').push({
+      G.unitCategories.push({
          id: 'specialized',
          name: 'Specialized'
       });
