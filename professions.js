@@ -7,10 +7,10 @@ G.AddData({
    manifest: 'blueManifest.js',
    requires: ['Default dataset*'],
    func: function() {
-      G.unitCategories.push({
+      /*G.unitCategories.push({
          id: 'specialized',
          name: 'Specialized'
-      });
+      */});
       new G.Unit({
          name: 'doctor',
          desc: '@uses [herb]s to heal the [sick] and the [wounded]<>The [doctor] has carefully studied how herbs work to cure illness.',
@@ -52,7 +52,8 @@ G.AddData({
          req: {
             'healing': true
          },
-         category: 'specialized',
+         //category: 'specialized',
+         category: 'debug',
          priority: 50,
       });
 
