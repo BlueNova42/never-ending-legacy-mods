@@ -20,7 +20,7 @@ G.AddData({
             'worker': 1
          },
          staff: {
-            'metal tools': 1
+            'metal tools': 2
          },
          upkeep: {
             'coin': 0.4
