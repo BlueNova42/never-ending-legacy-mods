@@ -2,11 +2,15 @@
 G.AddData({
    name: 'professions',
    author: 'BlueNova42',
-   desc: 'WIP',
+   desc: 'Adds more units (WIP)',
    engineVersion: 1,
    manifest: 'blueManifest.js',
    requires: ['Default dataset*'],
    func: function() {
+      G.getDict('unitCategories').push({
+         id: 'specialized',
+         name: 'Specialized'
+      });
       new G.Unit({
          name: 'doctor',
          desc: '@uses [herb]s to heal the [sick] and the [wounded]<>The [doctor] has carefully studied how herbs work to cure illness.',
@@ -21,7 +25,8 @@ G.AddData({
          upkeep: {
             'coin': 0.4
          },
-         effects: [{type: 'convert',
+         effects: [{
+            type: 'convert',
             from: {
                'sick': 1,
                'herb': 2.5
@@ -29,8 +34,9 @@ G.AddData({
             into: {
                'adult': 1
             },
-            chance: 4 / 5,
-            every: 2
+            //chance: 4 / 5,
+            chance: 1
+            every: 1
          }, {
             type: 'convert',
             from: {
@@ -44,11 +50,11 @@ G.AddData({
             every: 5
          }, ],
          req: {
-            'healing': true,
-            'smelting': true
+            'healing': true
          },
-         category: 'spiritual',
+         category: 'specialized',
          priority: 50,
       });
+
    }
 })
