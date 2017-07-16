@@ -53,8 +53,8 @@ G.AddData({
          req: {
             'healing': true
          },
-         //category: 'specialized',
-         category: 'debug',
+         category: 'specialized',
+         //category: 'debug',
          priority: 50,
       });
    }
