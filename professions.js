@@ -1,6 +1,6 @@
-//doesnt work
+//slightly works
 G.AddData({
-   name: 'professions',
+   name: 'Professions',
    author: 'BlueNova42',
    desc: 'Adds more units (WIP)',
    engineVersion: 1,
