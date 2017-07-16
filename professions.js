@@ -10,7 +10,7 @@ G.AddData({
       /*G.unitCategories.push({
          id: 'specialized',
          name: 'Specialized'
-      */});
+      });*/
       new G.Unit({
          name: 'doctor',
          desc: '@uses [herb]s to heal the [sick] and the [wounded]<>The [doctor] has carefully studied how herbs work to cure illness.',
