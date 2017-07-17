@@ -15,15 +15,6 @@ G.AddData({
          name: 'compost',
          desc: '[compost] is decayed material used as a plant fertilizer.',
          icon: [3, 7],
-         turnToByContext: {
-            'eat': {
-               'health': 0.01,
-               'happiness': 0.03
-            },
-            'decay': {
-               'spoiled food': 0.5
-            }
-         },
          category: 'food',
       });
       new G.Unit({
@@ -52,8 +43,8 @@ G.AddData({
             chance: 1,
             every: 1
          }, ],
-         category: 'debug',
-         //category: 'specialized',
+         //category: 'debug',
+         category: 'specialized',
          priority: 50,
       });
       new G.Unit({
