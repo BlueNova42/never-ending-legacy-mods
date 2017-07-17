@@ -18,8 +18,8 @@ G.AddData({
          category: 'food',
       });
       new G.Unit({
-         name: 'farmer',
-         desc: '@turns [spoiled food] and [muddy water] into [compost]@uses [compost] to grow more herbs. @handles other farm tasks.',
+         name: 'blue farmer',
+         desc: '@turns [spoiled food] and [muddy water] into [compost]@uses [compost] to grow more herbs. @handles other farm tasks',
          icon: [4, 10],
          cost: {},
          use: {
@@ -43,8 +43,11 @@ G.AddData({
             chance: 1,
             every: 1
          }, ],
-         //category: 'debug',
+         req: {
+            'speech': true
+         },
          category: 'specialized',
+         //category: 'debug',
          priority: 50,
       });
       new G.Unit({
