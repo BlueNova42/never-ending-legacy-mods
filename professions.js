@@ -18,7 +18,7 @@ G.AddData({
          category: 'food',
       });
       new G.Unit({
-         name: 'blue farmer',
+         name: 'farmer',
          desc: '@turns [spoiled food] and [muddy water] into [compost]@uses [compost] to grow more herbs. @handles other farm tasks',
          icon: [4, 10],
          cost: {},
@@ -29,7 +29,7 @@ G.AddData({
             'knapped tools': 1
          },
          upkeep: {
-            'coin': 0
+            'coin': 1
          },
          effects: [{
             type: 'convert',
