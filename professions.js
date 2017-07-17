@@ -19,23 +19,23 @@ G.AddData({
       });
       new G.Unit({
          name: 'farmer',
-         desc: '@turns [spoiled food] and [muddy water] into [compost]@uses [compost] to grow more herbs. @handles other farm tasks',
+         desc: '@turns [spoiled food] and [muddy water] into [compost]@uses [compost] to grow more herbs. @handles other farm tasks.',
          icon: [4, 10],
          cost: {},
          use: {
-            'worker': 0
+            'worker': 1
          },
          staff: {
-            'metal tools': 0
+            'knapped tools': 1
          },
          upkeep: {
-            'coin': 1
+            'coin': 0
          },
          effects: [{
             type: 'convert',
             from: {
                'spoiled food': 3,
-               'mudddy water': 1
+               'muddy water': 1
             },
             into: {
                'compost': 1
