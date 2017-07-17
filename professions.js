@@ -52,9 +52,6 @@ G.AddData({
             chance: 1,
             every: 1
          }, ],
-         req: {
-            //'healing': true
-         },
          category: 'debug',
          //category: 'specialized',
          priority: 50,
