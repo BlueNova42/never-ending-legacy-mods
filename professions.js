@@ -32,10 +32,10 @@ G.AddData({
          icon: [4, 10],
          cost: {},
          use: {
-            'worker': 1
+            'worker': 0
          },
          staff: {
-            'metal tools': 1
+            'metal tools': 0
          },
          upkeep: {
             'coin': 1
