@@ -42,12 +42,17 @@ G.AddData({
             },
             chance: 1,
             every: 1
+         }, {
+            type: 'gather',
+            context: 'gather',
+            amount: 4,
+            max: 10
          }, ],
          req: {
             'speech': true
          },
-         category: 'specialized',
          //category: 'debug',
+         category: 'specialized',
          priority: 50,
       });
       new G.Unit({
